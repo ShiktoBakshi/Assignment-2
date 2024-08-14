@@ -1,3 +1,243 @@
-*{
-    background-color: aqua;
+
+body{
+    /* background-color: black; */
+}
+/* Common color */
+.dark-1{
+color: rgba(255, 255, 255, 0.5);
+}
+/* Common style */
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* banner style */
+.header{
+
+    background: linear-gradient(180deg) rgba(36, 34, 34, 0.959);
+}
+.banner-img{
+background-image: url(/images/Images\ 2.png);
+height: 580px;
+left: 877px;
+top: 135px;
+background-repeat: no-repeat;
+background-position: right ;
+height: 580px;
+
+}
+
+.banner{
+   margin: 70px;
+  
+}
+
+.btn-1{
+    width: 155px;
+    height: 75px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    left: 980px;
+    top: 300px;
+
+
+}
+
+.btn-2{
+
+    width: 155px;
+    height: 75px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    left: 700px;
+    top: 50px;
+
+}
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+   
+}
+
+nav ul li {
+  
+   list-style-type: none;
+   border: 1px solid ;
+   border-radius: 30px;
+
+}
+nav a{
+    text-decoration: none;
+   padding: 10px;
+ 
+}
+
+
+/* header style */
+header{
+   
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+/* main style */
+.team-title{
+color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+}
+.time-para{
+    text-align: center;
+ color: white;
+ margin: 50px;
+}
+.team-member{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+
+border-radius: 18px;
+background-color: rgba(28, 25, 25, 0.938);
+margin: 30px;
+
+}
+.team-member>img{
+width: 326.67px;
+height: 272px;
+
+}
+.team-img {
+margin: 20px 30px ;
+align-items: center;
+
+border: 1px solid;
+border-radius: 18px;
+
+}
+
+/* Footer style */
+#footer {
+background-color:rgba(36, 34, 34, 0.959);
+color: white;
+margin: 88px 0px 0px;
+
+}
+.footer-style{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+padding: 50px;
+
+}
+.part-1{
+   
+    margin: 0px,102px; 
+    padding-left: 60px;
+}
+.part-1>h1{
+color: rgb(230, 83, 60);
+font-size: 70px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 20px;
+}
+.part-1>p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.part-2>ul>li{
+    margin: 39px,0px;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+   font-weight: 400;
+   line-height: 120%;
+   letter-spacing: 0%;
+   list-style: none;
+}
+.part-2>h3{
+    text-align: left;
+    padding-left: 35px ;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.part-3>h3{
+    text-align: left;
+    padding-left: 35px ;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.part-3>ul>li{
+    margin: 39px,0px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    list-style: none;
+    
+}
+hr{
+width: 1000px ;
+border: 2px solid rgba(255, 255, 255, 0.1);
+margin-left: 130px;
+
+
+}
+.copy{
+    justify-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+table{           
+    height:216px;
+    width: 310px;
+    border-collapse: collapse;
+  }
+td,th{
+border: 1px solid black;
+}
+tr{
+text-align: center;
+}
+.forme form{
+   
+    display: grid;
+    grid-template-areas: "height weight" "age sex" 
+    "select select " ;
+    gap:;
+   
+}
+.height{
+height: 30px;
+width: 200px;
+}
+.weight{
+    height: 30px;
+    width: 200px;;
+}
+.age{
+    height: 30px;
+    width: 50%;
+    }
+.sex{
+    height: 35px;
+    width: 50%;
+    }
+.select{
+    height: 30px;
+width: 100%;
 }
