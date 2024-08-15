@@ -6,62 +6,112 @@
     <title>Assignment-2</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
+<body class="inter">
   
- <!-- nav start -->
- <nav>
-    <h3>Fitness</h3>
-    <ul>
-        <li>
-            <a href="">Home</a>
+
+ <!-- header start -->
+     <header>
+      <!-- nav start -->
+        <nav>
+             <h2 class="orang"><i>Fitness</i></h2>
+         <ul>
+          <li>
+            <a href="" class="home">Home</a>
             <a href="">Service</a> 
             <a href="">Contact</a>   
             <a href="">About</a>
-        </li>
-        
-    </ul>
-</nav>
-<!-- nav end -->
- <!-- header start -->
-     <header class="banner-img header">
-             
-         <section class="banner ">
+          </li>
+         </ul>
+        </nav>
+     <!-- nav end -->
+        <section class=" display-flex ">
             <div>
-                <h1>Get body in <br>
-                    <span>shape</span> & stay 
+                <h1 class="header-title">Get body in <br>
+  
+                <span class="satisfy">shape</span> & stay 
                     <br>healthy</h1>.
+                     <p class="header-p dark-1"> Define what you want to achieve, whether it’s losing weight, <br> building muscle, or improving endurance. <br> Having specific goals can keep you motivated.<p>
+                <button class="header-btn-1">Join club Now!</button>
+                <button class="header-btn-2"> Download App</button>
             </div>
-                <p> Define what you want to achieve, whether it’s losing weight, <br> building muscle, or improving endurance. <br> Having specific goals can keep you motivated.<p>
-                <button>Join club Now!</button>
-                <button> Download App</button>
+            <div class="banner-img">
+                <img src="images/Images 2.png" alt="">
             </div>
-            <button class="btn-1">
-                <h3>500+</h3>
-                <p>Free Workout Videos </p>
-            </button>
-            <button class="btn-2">
-                <h3>350+</h3>
-                <p>Video tutorial</p>
-            </button>
-          
-         </section>
+        </section>
         
-          
+        <button class="btn-1">
+        <div  class="btn-title">
+         500+
+        </div>
+            <p class="dark-1">Free Workout Videos </p>
+        </button>
 
-        </header>
- <!-- header end -->
+        <button class="btn-2">
+            <div class="video-350"></div>
+            <div  class="btn-title-2">
+                300+
+               </div>
+        
+        <p class="dark-1 btn-p">Video tutorial</p>
+        </button>
+    </header>
+<!-- header end -->
 
- <!-- main start -->
+<!-- main start -->
      <main>
+        <section class="change-your-habits">
+          <h2 class="habits-title">
+           Change Your <span>H</span>abits
+          </h2>
+          <p class="habits-p dark-1">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ratione amet at velit eligendi sunt molestias temporibus corrupti repudiandae optio vel beatae distinctio rem odit, minima animi dolorem architecto ipsam?
+          </p>
+          <div class="change-habits">
+           <div>
+            <img class="habits-img" src="images/image 3.png" alt="">
+            </img>
+            <h4 class="habit-title">Movement</h4>
+            <p class="habit-p dark-1"></p>
+           </div>
+           <div>
+            <img class="habits-img" src="images/image 2.png" alt="">
+            </img>
+            <h4 class="habit-title">Time</h4>
+            <p class="habit-p dark-1"></p>
+           </div>
+           <div>
+            <img class="habits-img" src="images/image 4.png" alt="">
+            </img>
+            <h4 class="habit-title">Practice</h4>
+            <p class="habit-p dark-1"></p>
+           </div>
+           <div>
+            <img class="habits-img" src="images/image 5.png" alt="">
+            </img>
+            <h4 class="habit-title">Weight Loss</h4>
+            <p class="habit-p dark-1"></p>
+           </div>
+          </div>
+        </section>
+        <section class="run">
+          <div class="run-info">
+           <h2 class="run-title">Run an Extra Mile Easily</h2>
+           <p class="run-p"></p>
+           <button class="run-btn">Join Now</button>
+          </div>
+          <div >
+            <img class="run-img" src="images/run.jpg" alt="">
+          </div>
+        </section>
       <div class="bmi">
         <h4>BMI Calculator</h4>
         <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
 
 
       </div>
-      <div class="bmi-calculator display-flex">
+      <div class="bmi-calculator">
        <div class="Details">
-        <h4>BMI Calculator chart</h4>
+        <h4 class="chart-title">BMI Calculator Chart</h4>
         <table>
             <thead>
                 <tr>
@@ -94,33 +144,28 @@
         </table>
        </div>
        <div class="calculator">
-        <h4>Calculate your BMI</h4>
+        <h4 class="calculator-title">Calculate your BMI</h4>
         <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
       
-          <div class="forme">
-            <form action="" >
-               <p>
-                <input class="height" type="text" placeholder="Height/cm">
-               </p>
-               <p> <input class="weight" type="text" placeholder="weight/kg"></p>
-               <p>
-                <input class="age" type="text" placeholder="Age">
+          <div class="form">
+                <input class="height dark-1" type="text" placeholder="Height/cm">
+               
+                <input class="weight dark-1" type="text" placeholder="weight/kg">
               
-               </p>
-              <p>
-                <select name="" id="" class="sex">
+                <input class="age dark-1" type="text" placeholder="Age">
+              
+                <select name="" id="" class="sex dark-1">
                     <option value="">Sex</option>
                    
-                  </select>
-              </p>
-               <p>
-                <select name="" id="" class="select" >
+                </select>
+                <select name="" id="" class="select dark-1" >
                     <option value="">Select an activity factor</option>
                 </select>
-               </p>
+            
           </div>
-       </form>
-       <button>Calculate</button>
+
+       <button class="calculate">Calculate</button>
+
        </div>
       </div>
     <div class="meet-team">
@@ -128,22 +173,38 @@
         <p class="time-para">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
     </div>
     <div class="team-member">
-        <img class="team-img" src="images/trainer1.png" alt="">
-        <img class="team-img" src="images/trainer2.png" alt="">
-        <img class="team-img " src="images/trainer3.png" alt="">
-        <img class="team-img" src="images/trainer4.png" alt="">
-        <img class="team-img" src="images/trainer5.png" alt="">
-        <img class="team-img" src="images/trainer6.png" alt="">
-       
-    </div>
+        <div class="img-1">
+            <img class="team-img" src="images/trainer1.png" alt="">
+           
+            <div class="team-member-name">
+            <h4>dhfugh</h4>
+             <p>hfudh</p>
+            </div>
+        </div>
+        <div class="img-1">
+            <img class="team-img" src="images/trainer2.png" alt=""> 
+        </div>
+        <div class="img-1">
+            <img class="team-img " src="images/trainer3.png" alt="">
+         </div>
+        <div class="img-1">
+            <img class="team-img" src="images/trainer4.png" alt="">
+         </div>
+        <div class="img-1"> 
+            <img class="team-img" src="images/trainer5.png" alt="">
+         </div>
+        <div class="img-1">
+             <img class="team-img" src="images/trainer6.png" alt=""> 
+        </div>
+        </div>
      </main>
- <!-- main end -->
+<!-- main end -->
 
-   <!-- footer start -->
-     <footer id="footer">
+<!-- footer start -->
+    <footer id="footer">
 <div class="footer-style">
     <div class="part-1">
-        <h1>Fitness</h1>
+        <h1><i>Fitness</i></h1>
        <p>
         We believe fitness should be accessible to everyone,  everywhere, regardless of income or access to a  gym With hundreds of professional workouts.
        </p>
@@ -171,8 +232,8 @@
 <p class="copy">
     All right reserved @Fitness 2024
 </p>
-</footer>
-  <!-- footer end -->
+    </footer>
+<!-- footer end -->
 
 
 </body>

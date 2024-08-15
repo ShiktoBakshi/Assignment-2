@@ -1,96 +1,304 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Satisfy&display=swap');
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+  }
+  .satisfy {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 body{
-    /* background-color: black; */
+    background-color: rgb(0, 0, 0);
+ 
+   
 }
 /* Common color */
 .dark-1{
 color: rgba(255, 255, 255, 0.5);
 }
+.orang{
+  color:   rgb(230, 83, 60);
+ }
 /* Common style */
 .display-flex{
-    display: flex;
+    display: flex ;
     justify-content: space-between;
-}
-/* banner style */
-.header{
-
-    background: linear-gradient(180deg) rgba(36, 34, 34, 0.959);
-}
-.banner-img{
-background-image: url(/images/Images\ 2.png);
-height: 580px;
-left: 877px;
-top: 135px;
-background-repeat: no-repeat;
-background-position: right ;
-height: 580px;
-
-}
-
-.banner{
-   margin: 70px;
-  
-}
-
-.btn-1{
-    width: 155px;
-    height: 75px;
-    box-sizing: border-box;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-    position: absolute;
-    left: 980px;
-    top: 300px;
-
-
-}
-
-.btn-2{
-
-    width: 155px;
-    height: 75px;
-    box-sizing: border-box;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-    position: absolute;
-    left: 700px;
-    top: 50px;
-
 }
 
 /* nav style */
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    padding: 30px 180px ;
    
 }
 
 nav ul li {
-  
+ 
    list-style-type: none;
-   border: 1px solid ;
+   border: 1px solid 
+   rgba(255, 255, 255, 0.1);
    border-radius: 30px;
+   padding:9px 7px;
 
 }
 nav a{
+    color: white;
     text-decoration: none;
-   padding: 10px;
+   padding: 9px;
  
 }
+.home{
+    background-color:   rgb(230, 83, 60);
+    border-radius: 20px;
 
-
+   
+ }
 /* header style */
 header{
    
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
+.banner-img{
+    padding-right:120px;
+}
+.header-title{
+    padding-left: 180px;
+    font-weight: 900;
+    font-size: 70px;
+    color: white;
+}
+.header-p{
+    padding-left: 180px;
+    font-size: 16px;
+    font-weight: 400;
+   margin-bottom: 20px;
+    
+}
+.header-btn-1{
+    margin-left: 180px;
+    height:40px ;
+    padding: 0px 50px 0px 50px;
+    border: none;
+   border-radius: 30px;
+   color: white;
+   background-color:   rgb(230, 83, 60);
+}
+.header-btn-2{
+    margin-left: 10px;
+    height:40px ;
+    padding: 0px 50px 0px 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0);
+   border-radius: 30px;
+   color: white;
+  
+}
+
+.btn-p{
+    padding-left: 40px;
+}
+.btn-1{
+    width: 155px;
+    height: 75px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    left: 1000px;
+    top: 280px;
+
+
+}
+.btn-title{
+    padding-left:10px ;
+    text-align: left;
+    font-weight: 800;
+    font-size:25px ;
+
+}
+
+.btn-2{
+
+   text-align: left;
+
+    width: 155px;
+    height: 75px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;  
+    left: 720px;
+    top: 580px;
+
+}
+.btn-title-2{
+    margin-top:-45px;
+    padding: 0px 0px 0px 40px ;
+    text-align: left;
+    font-weight: 800;
+    font-size:20px ;
+
+}
+
+.video-350{
+background-color:   rgb(230, 83, 60);
+width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-left: 5px;
+margin-top: 20px;
+
+}
 /* main style */
+.change-habits{
+  display: flex;
+ justify-content: center;
+  gap: 60px;
+  margin: 30px;
+}
+.habits-title{
+    text-align: center;
+  color: aliceblue;
+}
+.habits-p{
+
+    text-align: center;
+}
+.habits-img{
+    border-radius: 50%;
+}
+.habit-title{
+    color: white;
+    text-align: center;
+}
+.habit-p{
+    text-align: center;
+}
+/* Run style */
+.run{
+    display: flex;
+    justify-content: space-between;
+ 
+    margin: 120px;
+    padding: 30px;
+    border-radius: 18px;
+    background-color:rgba(36, 34, 34, 0.959);
+    
+}
+.run-info{
+
+}
+.run-title{
+
+}
+.run-p{
+
+}
+.run-btn{
+
+}
+.run-img{
+
+  width: 366px;
+  height: 312px;
+  left: 662px;
+  top: 30px;
+ border-radius: 19px;
+}
+/* BMI calculator style */
+.bmi-calculator{
+    background-color:rgba(36, 34, 34, 0.959);
+
+}
+.bmi-calculator{
+    color: white;
+    padding: 30px 120px 80px 120px;
+    display: flex;
+    gap: 150px;
+}
+.chart-title{
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    text-align: center;
+}
+table{           
+    height:216px;
+    width: 310px;
+    border-collapse: collapse;
+  }
+td,th{
+padding: 10px;
+border: 1px solid  rgba(255, 255, 255, 0.1);;
+}
+tr{
+    
+    text-align: center;
+}
+td{
+    color: rgba(255, 255, 255, 0.5) ;
+}
+.calculator-title{
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+.form{
+   gap:30px ;
+    display: grid;
+ grid-template-columns: repeat(2,1fr);
+  
+}
+.form>input{
+    background-color:rgba(60, 58, 58, 0.954);
+   border: none;
+   border-radius: 10px;
+   width: 100%;
+   padding-left: 10px;
+   height: 30px;
+
+}
+
+.select{
+    background-color:rgba(60, 58, 58, 0.954);
+   border: none;
+   border-radius: 10px;
+   padding-left: 10px;
+   width: 100%;
+  grid-column: span 2;
+  height: 30px;
+}
+.sex{
+    background-color:rgba(60, 58, 58, 0.954);
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+  
+}
+.calculate{
+    background-color: rgb(230, 83, 60) ;
+    color: white;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+/* meet our team style */
 .team-title{
 color: rgb(255, 255, 255);
 font-size: 48px;
@@ -104,24 +312,34 @@ text-align: center;
  color: white;
  margin: 50px;
 }
-.team-member{
+.team-member {
+
 display: grid;
 grid-template-columns: repeat(3,1fr);
-
 border-radius: 18px;
 background-color: rgba(28, 25, 25, 0.938);
-margin: 30px;
-
+margin: 50px;
+justify-items: center;
 }
-.team-member>img{
-width: 326.67px;
+.img-1{
+    position:relative;
+}
+ .team-member-name{
+   position: absolute;
+    left: 100px;
+    bottom: 100px;
+
+
+    color: aqua;
+  
+ }
+.team-member img{
+width: 330px;
 height: 272px;
 
 }
 .team-img {
-margin: 20px 30px ;
-align-items: center;
-
+margin: 20px 0px 20px 0px ;
 border: 1px solid;
 border-radius: 18px;
 
@@ -165,19 +383,20 @@ padding-bottom: 20px;
    line-height: 120%;
    letter-spacing: 0%;
    list-style: none;
+   padding-top: 10px;
 }
 .part-2>h3{
     text-align: left;
     padding-left: 35px ;
     padding-bottom: 20px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .part-3>h3{
     text-align: left;
     padding-left: 35px ;
     padding-bottom: 20px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 .part-3>ul>li{
     margin: 39px,0px;
@@ -187,6 +406,7 @@ padding-bottom: 20px;
     line-height: 120%;
     letter-spacing: 0%;
     list-style: none;
+    padding-top: 10px;
     
 }
 hr{
@@ -199,45 +419,8 @@ margin-left: 130px;
 .copy{
     justify-items: center;
     text-align: center;
+    padding-bottom: 5px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-table{           
-    height:216px;
-    width: 310px;
-    border-collapse: collapse;
-  }
-td,th{
-border: 1px solid black;
-}
-tr{
-text-align: center;
-}
-.forme form{
-   
-    display: grid;
-    grid-template-areas: "height weight" "age sex" 
-    "select select " ;
-    gap:;
-   
-}
-.height{
-height: 30px;
-width: 200px;
-}
-.weight{
-    height: 30px;
-    width: 200px;;
-}
-.age{
-    height: 30px;
-    width: 50%;
-    }
-.sex{
-    height: 35px;
-    width: 50%;
-    }
-.select{
-    height: 30px;
-width: 100%;
-}
+
