@@ -168,59 +168,88 @@ margin-top: 20px;
 .change-habits{
   display: flex;
  justify-content: center;
-  gap: 60px;
-  margin: 30px;
+  gap: 80px;
+
+  margin: 120px;
+  padding-top: 30px;
 }
 .habits-title{
+    margin-top: 70px;
     text-align: center;
   color: aliceblue;
+  font-weight: 900;
+  font-size: 50px;
 }
 .habits-p{
-
+    margin-top: 10px;
     text-align: center;
 }
 .habits-img{
     border-radius: 50%;
+ 
 }
 .habit-title{
+   
     color: white;
     text-align: center;
 }
+
 .habit-p{
     text-align: center;
+
 }
 /* Run style */
 .run{
     display: flex;
     justify-content: space-between;
- 
     margin: 120px;
     padding: 30px;
     border-radius: 18px;
     background-color:rgba(36, 34, 34, 0.959);
-    
+   
 }
 .run-info{
-
+margin: 15px;
+padding-right: 50px ;
 }
 .run-title{
-
+color: white;
+font-weight: 900;
+font-size: 50px;
+gap: 20; 
 }
 .run-p{
 
 }
 .run-btn{
-
+    background-color: rgb(230, 83, 60) ;
+    color: white;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
 }
 .run-img{
-
+ 
   width: 366px;
   height: 312px;
-  left: 662px;
-  top: 30px;
  border-radius: 19px;
 }
+.run-img-div{
+    padding-top: 30px;
+}
 /* BMI calculator style */
+.bmi-title{
+    color: white;
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+}
+.bmi-p{
+    text-align: center;
+ padding-bottom: 40px;
+}
 .bmi-calculator{
     background-color:rgba(36, 34, 34, 0.959);
 
@@ -256,6 +285,10 @@ td{
 .calculator-title{
   font-size: 1.5rem;
   letter-spacing: 3px;
+  color: aliceblue;
+}
+.calculator-p{
+   padding-bottom: 20px;
 }
 .form{
    gap:30px ;
@@ -301,7 +334,7 @@ td{
 /* meet our team style */
 .team-title{
 color: rgb(255, 255, 255);
-font-size: 48px;
+font-size: 50px;
 font-weight: 900;
 line-height: 120%;
 letter-spacing: 0%;
@@ -309,8 +342,8 @@ text-align: center;
 }
 .time-para{
     text-align: center;
- color: white;
- margin: 50px;
+ 
+  margin: 50px;
 }
 .team-member {
 
@@ -326,12 +359,12 @@ justify-items: center;
 }
  .team-member-name{
    position: absolute;
-    left: 100px;
-    bottom: 100px;
-
-
-    color: aqua;
+    left: 20px;
+    bottom: 20px; 
   
+ }
+ .member-name{
+    color: white;
  }
 .team-member img{
 width: 330px;
