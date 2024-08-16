@@ -49,6 +49,9 @@ nav ul li {
    padding:9px 7px;
 
 }
+.ham-bars{
+    display: none;
+}
 nav a{
     color: white;
     text-decoration: none;
@@ -450,6 +453,7 @@ margin-left: 130px;
     color: rgba(255, 255, 255, 0.5);
 }
 
+/* Responsive style */
 
 @media screen and (max-width:576px) {
     nav{
@@ -457,6 +461,14 @@ margin-left: 130px;
         justify-content: space-between;
         padding: 20px 10px 0px 20px ;
        
+    }
+    .nav-menu{
+        display: none;
+    }
+    .ham-bars{
+        display:block;
+       color: white;
+       padding-top: 20px;
     }
     .banner-section{
         flex-direction: column;
@@ -555,7 +567,7 @@ margin-left: 130px;
         
         }
         hr{
-            width: 460px ;
+            width: 100%  ;
             border: 2px solid rgba(255, 255, 255, 0.1);
            margin: 0px;
             
