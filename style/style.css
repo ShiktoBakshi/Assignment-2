@@ -218,9 +218,6 @@ font-weight: 900;
 font-size: 50px;
 gap: 20; 
 }
-.run-p{
-
-}
 .run-btn{
     background-color: rgb(230, 83, 60) ;
     color: white;
@@ -252,9 +249,6 @@ gap: 20;
 }
 .bmi-calculator{
     background-color:rgba(36, 34, 34, 0.959);
-
-}
-.bmi-calculator{
     color: white;
     padding: 30px 120px 80px 120px;
     display: flex;
@@ -458,43 +452,102 @@ margin-left: 130px;
 
 
 @media screen and (max-width:576px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px 0px 20px ;
+       
+    }
     .banner-section{
         flex-direction: column;
     }
+    .banner-img{
+      padding: 60px;
+    }
+    .header-title{
+        padding-left: 20px;
+        font-weight: 900;
+        font-size: 50px;
+        color: white;
+    }
+    .header-p{
+        padding-left: 20px;
+        font-size: 16px;
+        font-weight: 400;
+       margin-bottom: 20px;
+        
+    }
+    .header-btn-1{
+       margin-left: 50px;
+        height:40px ;
+      
+    }
+    .header-btn-2{
+        margin: 10px;
+        height:40px ;
+      
+    }
+
+    
     .header-btn-1{
         
         padding: 0px 40px 0px 40px;
         border: none;
-       border-radius: 30px;
-       color: white;
-       background-color:   rgb(230, 83, 60);
+      
     }
     .header-btn-2{
-        margin-left: px;
-        height:px ;
         padding: 0px 40px 0px 40px;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        background: rgba(255, 255, 255, 0);
-       border-radius: 30px;
-       color: white;
+       
       
     }
     .btn-1{
         width: 155px;
         height: 75px;
-        box-sizing: border-box;
-        border-radius: 12px;
-        color: white;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(20px);
-        background: rgba(255, 255, 255, 0.1);
-        position: absolute;
-        right:500px ;
-        top: px;
+        left: 270px ;
+        top:650px;
     
     
     }
-   
+    .btn-2{
+
+        text-align: left;
+         width: 155px;
+         height: 75px;
+         left: 40px;
+         top: 900px;
+     
+     }
+    .change-habits{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        margin: 120px;
+
+      }
+    .run{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+       
+    }
+    .run-btn{
+        margin-top: 20px;
+        width: 80%;
+        height: 40px;
+    }
+    .bmi-calculator{
+       
+        padding: 30px 30px 80px 30px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .team-member {
+        grid-template-columns: repeat(1,1fr);
+        margin: 20px;
+        justify-items: center;
+        }
     .footer-style{
         display: grid;
         grid-template-columns: repeat(1,1fr);
